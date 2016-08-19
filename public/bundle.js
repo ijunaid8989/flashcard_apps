@@ -29,12 +29,4 @@ store.dispatch({
   }
 });
 
-store.dispatch({
-  type: 'ADD_CARD',
-  data: {
-    hello: 'hello',
-    hi: 'hi'
-  }
-});
-
 },{}]},{},[1]);

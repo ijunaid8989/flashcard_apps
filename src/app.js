@@ -20,17 +20,9 @@ store.subscribe(() => {
 });
 
 store.dispatch({
-  type: 'ADD_CARD',
-  data: {
-    front: 'front',
-    back: 'back'
-  }
-});
-
-store.dispatch({
-  type: 'ADD_CARD',
-  data: {
-    hello: 'hello',
-    hi: 'hi'
-  }
+    type: 'ADD_CARD',
+    data: {
+      front: 'front',
+      back: 'back'
+    }
 });
